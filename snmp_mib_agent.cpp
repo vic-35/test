@@ -1,7 +1,6 @@
 /*
-++ BUILD Version: 0001    // Increment this if a change has global effects
 
-Copyright (c) 2004 S&M&A
+
 
 Module Name:
 
@@ -25,7 +24,7 @@ AsnObjectIdentifier MIB_OidPrefix = { OID_SIZEOF(OID_Prefix), OID_Prefix };
 
 
 // OID 	  
-// Это пример реальных данных пока не выдано заказчиком !
+// ГќГІГ® ГЇГ°ГЁГ¬ГҐГ° Г°ГҐГ Г«ГјГ­Г»Гµ Г¤Г Г­Г­Г»Гµ ГЇГ®ГЄГ  Г­ГҐ ГўГ»Г¤Г Г­Г® Г§Г ГЄГ Г§Г·ГЁГЄГ®Г¬ !
 
 UINT MIB_v_Manufacturer[]       = { 5, 1};
 UINT MIB_v_Manufacturer1[]      = { 5, 2};
@@ -33,7 +32,7 @@ UINT MIB_v_d1[]				    = { 5, 3, 2};
 UINT MIB_v_d2[]                 = { 5, 5 };
 
 
-//  Массив значений !
+//  ГЊГ Г±Г±ГЁГў Г§Г­Г Г·ГҐГ­ГЁГ© !
 // 
 
 char       MIB_v_t1[]     = "My Data ";
@@ -41,7 +40,7 @@ char       MIB_v_ManStor[]     = "M2 Monitor\0";
 char       MIB_v_ModelStor[]   = "M2 SNMP Extension Agent for Windows NT/2000\0";
 
 
-//  Массив доступа к значеням !
+//  ГЊГ Г±Г±ГЁГў Г¤Г®Г±ГІГіГЇГ  ГЄ Г§Г­Г Г·ГҐГ­ГїГ¬ !
 
 MIB_ENTRY Mib[] = {      
 
